@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class CalculatorApplicationTests {
 
-	private CalculatorApplication calculator = new CalculatorApplication(); 
+	private BsafeApplication calculator = new BsafeApplication(); 
 	@Test     
 	public void testSum() {          
 		assertEquals(5, calculator.sum(2, 3));     
