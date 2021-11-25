@@ -1,6 +1,6 @@
-package com.simplilearn.calculator;
+package com.aetna.bsafe;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import static org.junit.Assert.assertEquals;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -13,4 +13,3 @@ class CalculatorApplicationTests {
 		assertEquals(5, calculator.sum(2, 3));     
 	}
 }
-
